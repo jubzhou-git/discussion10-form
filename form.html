@@ -14,28 +14,28 @@
         <fieldset>
             <legend>Information</legend>
             <label for="first-name">First Name:</label>
-            <input type="text" id="first-name"  required>
+            <input type="text" id="first-name" name="first-name" required>
 
             <label for="last-name">Last Name:</label>
-            <input type="text"  id="last-name" required>
+            <input type="text"  id="last-name" name="last-name" required>
 
             <label for="program">Confirm MSI Program: </label>
             <input type="checkbox" id="program" name="program">
 
-            <div class="checkbox-group">
+            <fieldset class="checkbox-group">
                 <legend>Available Times for Picking Up Groceries:</legend>
-                <input type="checkbox" id="morning" name="available-time" value="morning">
+                <input type="checkbox" id="morning" name="available-time-1" value="morning">
                 <label for="morning">Morning</label>
 
-                <input type="checkbox" id="afternoon" name="available-time" value="afternoon">
+                <input type="checkbox" id="afternoon" name="available-time-2" value="afternoon">
                 <label for="afternoon">Afternoon</label>
 
-                <input type="checkbox" id="evening" name="available-time" value="evening">
+                <input type="checkbox" id="evening" name="available-time-3" value="evening">
                 <label for="evening">Evening</label>
 
-                <input type="checkbox" id="weekend" name="available-time" value="weekend">
+                <input type="checkbox" id="weekend" name="available-time-4" value="weekend">
                 <label for="weekend">Weekend</label>
-            </div>
+            </fieldset>
 
             <input type="submit" value="Submit">
         </fieldset>
